@@ -30,4 +30,3 @@ Run the following code to generate the file:
 ```
 docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --postgres > /home/$USER/dockerdata/guacamole/postgres/init/initdb.sql
 ```
-You may recreate your own initdb.sql or use the one in this repository.
